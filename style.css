@@ -281,7 +281,7 @@ header{
 /* app-section */
 .app-section{
     background-color: rgb(78, 78, 235);
-    height: 700px;
+    padding-bottom: 30px;
     margin-top: 60px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
@@ -294,6 +294,12 @@ header{
 .app-txt-box{
     width: 500px;
     color: #fff;
+}
+.app-mobile-img{
+    height: 300px;
+}
+.app-mobile-img img{
+    height: 100%;
 }
 /* contact-section */
 .contact-section{
