@@ -169,10 +169,10 @@ header{
     border: 1px solid rgb(226, 223, 223);
     box-shadow: 0 0 0 2px rgb(226, 223, 223);
  }
- /* .dark-btn{
+ .dark-btn{
     color: #fff;
     background-color: rgb(78, 78, 235);
- } */
+ }
  .content{
     display: none;
  }
