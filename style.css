@@ -54,7 +54,7 @@ ul{
 
 /* header */
 header{
-    padding: 50px 0;
+    padding: 35px 0;
 }
 .header-section{
     justify-content: center;
@@ -63,7 +63,6 @@ header{
 }
 .header-left{
     color: #fff;
-    /* max-width: 40vw; */
 }
 .header-left h1{
     font-size: 40px;
@@ -456,10 +455,6 @@ header{
     .bars{
         display: block;
     }
-    /* .app-section{
-      border-top-left-radius: 40%;
-      border-top-right-radius: 40%;  
-    } */
     .app-mobile-img{
         width: 60%;
         height: 70%;
