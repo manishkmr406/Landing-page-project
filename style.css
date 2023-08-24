@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -36,10 +36,12 @@ ul{
     padding-top: 15px;
     padding-bottom: 15px;
     justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
 }
 .nav-links ul{
     justify-content: end;
     gap: 20px;
+    font-weight: 600;
 }
 .hover-link{
     transition: 0.2s ease-out;
@@ -60,6 +62,7 @@ header{
     justify-content: center;
     gap: 50px;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 .header-left{
     color: #fff;
@@ -97,6 +100,7 @@ header{
     padding-top: 40px;
     font-size: 20px;
     font-weight: 500;
+    font-family: 'Roboto', sans-serif;
 }
 .feature-txt{
     padding-top: 15px;
@@ -120,6 +124,7 @@ header{
 .about-txt{
     font-size: 35px;
     padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 .img-about-container{
     border-radius: 50%;
@@ -138,6 +143,7 @@ header{
 .about-para{
     font-size: 18px;
     padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 .font-icons i{
     padding-top: 15px;
@@ -157,6 +163,7 @@ header{
     background-color: #fff;
     border-radius: 30px;
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     cursor: pointer;
     border: 1px solid rgb(226, 223, 223);
@@ -179,11 +186,13 @@ header{
 }
 .community-left p{
     margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 .community-left li{
     padding-bottom: 20px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
 }
 .community-right img{
     height: 450px;
@@ -200,6 +209,7 @@ header{
     background-color: #ffffff;
     padding: 10px;
     border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 .card-img img{
     width: 100%;
@@ -320,6 +330,7 @@ header{
 .contact-section{
     background-color: #ffffff;
     padding-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
 }
 .contact-box{
     display: flex;
@@ -347,12 +358,16 @@ header{
     display: flex;
     justify-content: center;
     padding: 40px 0;
+    font-family: 'Roboto', sans-serif;
 }
 .logo-icons i{
     color: #fff;
 }
 .logo-box{
     flex-direction: column;
+}
+.logo-box>h1{
+    color: #fff;
 }
 .app-download-box{
     width: 200px;
