@@ -168,6 +168,7 @@ header{
     cursor: pointer;
     border: 1px solid rgb(226, 223, 223);
     box-shadow: 0 0 0 2px rgb(226, 223, 223);
+    outline: none;
  }
  .dark-btn{
     color: #fff;

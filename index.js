@@ -10,6 +10,8 @@ const selectButtons=document.querySelectorAll('.selectbtn');
 const contents=document.querySelectorAll(".content");
 
 contents[0].style.display= 'flex';
+selectButtons[0].focus();
+
 selectButtons.forEach((button,index)=>{
     button.addEventListener('click',()=>{
         contents.forEach((ctx,ctxIndex)=>{
@@ -22,3 +24,4 @@ selectButtons.forEach((button,index)=>{
         })
     })
 })
+
