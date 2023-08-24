@@ -381,8 +381,11 @@ header{
     color: #fff;
     gap: 30px;
 }
+.bars{
+    display: none;
+}
 
-@media screen and (max-width: 500px){ 
+@media screen and (max-width: 400px){ 
     .container{
         flex-wrap: wrap;
     }
@@ -427,11 +430,27 @@ header{
     .consultation-cards{
         flex-wrap: wrap;
     }
-    .hide{
+    .nav-links{
         display: none;
+        width: 90%;
+        border-top: 1px solid #969292;
+        padding-top: 20px;
+        margin-top: 30px;
+    }
+    .nav-links ul li{
+        width: 100%;
+    }
+    .nav-links ul{
+        flex-direction: column;
+    }
+    .active-nav{
+        display: block;
     }
     .app-txt-box{
         text-align: center;
+    }
+    .hide{
+        display: none;;
     }
     .contact-box{
         flex-wrap: wrap;
@@ -469,6 +488,10 @@ header{
     }
     .bars{
         display: block;
+        position: absolute;
+        right:29px;
+        top: 25px;
+        cursor: pointer;
     }
     .app-mobile-img{
         width: 60%;
