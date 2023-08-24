@@ -489,8 +489,8 @@ header{
     .bars{
         display: block;
         position: absolute;
-        right:29px;
-        top: 25px;
+        right:25px;
+        top: 22px;
         cursor: pointer;
     }
     .app-mobile-img{
