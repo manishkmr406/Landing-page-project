@@ -64,7 +64,7 @@ header{
 }
 .header-left{
     color: #fff;
-    max-width: 40vw;
+    /* max-width: 40vw; */
 }
 .header-left h1{
     font-size: 40px;
@@ -377,10 +377,13 @@ header{
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        width: 100vw;
+        max-width: 95vw;
     }
-    .header-left{
-        width: 100vw;
+    .header-left h1{
+        font-size: 25px;
+    }
+    .header-left p{
+        font-size: 18px;
     }
     .header-right img{
         width: 300px;
@@ -396,6 +399,15 @@ header{
         padding-left: 15px;
         padding-right: 15px;
     }
+    .feature-txt{
+       font-size: 30px;
+    }
+    .txt-center h1 span{
+        margin-right: 15px;
+    }
+    .uppercase-txt{
+        font-size: 30px;
+    }
     .course-cards{
         flex-wrap: wrap;
     }
@@ -404,9 +416,6 @@ header{
     }
     .hide{
         display: none;
-    }
-    .app-section{
-        overflow: hidden;
     }
     .app-txt-box{
         text-align: center;
@@ -442,8 +451,13 @@ header{
     .bars{
         display: block;
     }
-    .app-mobile-laptop-container{
-        flex-wrap: wrap;
+    .app-mobile-img{
+        width: 60%;
+        height: 70%;
+    }
+    .app-laptop-img{
+        width: 75%;
+        height: 65%;
     }
 }
     
