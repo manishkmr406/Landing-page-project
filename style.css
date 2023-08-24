@@ -428,7 +428,13 @@ header{
         width: 90%;
     }
     .app-txt-box{
-        width: 200px;
+        width: 320px;
+    }
+    .app-container{
+        padding-top: 20px;
+    }
+    .about-txt{
+        font-size: 25px;
     }
     .logo-footer{
         flex-wrap: wrap;
@@ -451,6 +457,10 @@ header{
     .bars{
         display: block;
     }
+    /* .app-section{
+      border-top-left-radius: 40%;
+      border-top-right-radius: 40%;  
+    } */
     .app-mobile-img{
         width: 60%;
         height: 70%;
